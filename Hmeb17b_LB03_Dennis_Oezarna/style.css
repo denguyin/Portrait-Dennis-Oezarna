@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: gineso, sans-serif;
+    font-style: normal;
+    background-color: #F1F1F1;
+}
+a{
+    text-decoration: none;
+    color: #212121; 
+}
+
+main{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 25%;
+    height: 100vh;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo_denguyin{
+    width: 600px;
+}
+
+.logo_denguyin2{
+    width: 400px;
+}
+
+.container_logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+
+content{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+nav{
+    width: 40%;
+    height: 95vh;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav2{
+    width: 25%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_media{
+    width: 40%;
+    height: 100vh;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    font-size: 22pt;
+    margin-left: 50px;
+}
+
+li{
+    margin-bottom: 26px;
+    font-weight: 400;
+}
+
+.img_style_1{
+    border: 10px solid #f1f1f1;
+    width: 47%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.img_style_2{
+    border: 10px solid #f1f1f1;
+    width: 97%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+
+.container_about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.me{
+    width: 40%;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+
+.txt_about{
+    font-size: 16pt;
+    margin-left: 30px;
+    margin-top: 150px;
+    background-color: #212121;
+    border: 30px solid #212121;
+    color: #f1f1f1;
+}
+
+.container_contact{
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    margin-left: 170px;
+    margin-top: 150px;
+}
+
+h2{
+    font-size: 30pt;
+    background-color: #212121;
+    color: #f1f1f1;
+}
+footer{
+    font-size: 18pt;
+    float: right;
+    margin-right: 30px;
+    text-decoration: overline;
+    
+}
